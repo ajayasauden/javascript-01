@@ -1,0 +1,127 @@
+body{
+  background: linear-gradient(45deg, rgb(237, 128, 203), rgb(242, 202, 236),rgb(250, 147, 218));
+  background-size:cover;
+  font-family:Roboto;
+  margin:0;
+  padding:20px;
+  text-align:center;
+  height:690px
+}
+h2{
+  display:flex;
+  flex-direction:row;
+  align-items: center;
+  background:linear-gradient(to right ,#FCA5F1,rgb(247, 239, 245),#FCA5F1);
+  padding-left:135px;
+  padding-top:6px;
+  padding-bottom: 6px;
+  font-weight:bold;
+  color:rgb(247, 72, 247);
+}
+
+.task,.title,button{
+  margin-bottom:10px;
+}
+.search{
+  display:flex;
+  text-align: center;
+  align-items: center;
+  background:linear-gradient(to right ,rgb(246, 175, 233),rgb(247, 239, 245),rgb(243, 182, 232));
+  padding-left:180px;
+  padding-top:6px;
+  padding-bottom:6px;
+  margin-bottom:0px;
+  margin-left: 0px;
+  margin-top:0px;
+  opacity:0.9;
+  border-radius: 5px;
+}
+input[type='text']{
+  background-color: rgb(248, 245, 248);
+  opacity: 0.9;
+  display:flex;
+  align-items: center;
+  text-align:center;
+  border:1px;
+  width:96%;
+  padding:8px;
+  font-size:16px;
+  border-radius:5px;
+  border-width:1px;
+  margin-bottom:0px;
+  background:linear-gradient(to right ,rgb(246, 175, 233),rgb(247, 239, 245),rgb(243, 182, 232));
+}
+input:focus{
+  border:1px solid rgb(239, 102, 249);
+  outline:none;
+}
+button{
+  margin-top:0px;
+  padding:8px;
+  padding-left: 190px ;
+  padding-right: 180px;
+  text-align: center;                 
+  font-size:16px;
+  font-weight:bold;
+  cursor:pointer;
+  color:#0c0b0b;
+  border:1px;
+  border-radius:6px;
+  opacity:0.9;
+  background-color:#FCA5F1;
+
+}
+button:hover{
+  opacity:0.8;
+  transition:0.5;
+}
+button:active{
+  background-color:#a0e9ee;
+  border-color:rgb(208, 250, 204);
+  transition:0.015;
+}
+p{
+  color:rgb(16, 16, 18);
+  font-size:16px;
+}
+.spantask{
+  font-weight:bold;
+}
+
+ul{
+  list-style-type:none;
+  padding:0;
+  margin:0;
+}
+li{
+  background:linear-gradient(to right ,rgb(246, 175, 233),rgb(247, 239, 245),rgb(243, 182, 232));
+  padding:6px;
+  padding-left: 0px;
+  margin-top:5px;
+  margin-left:99px;
+  margin-right:90px;
+  margin-bottom:0px;
+  border-radius:4px;
+  cursor:pointer;
+}
+li:hover{
+  background-color: rgb(206, 250, 210);
+}
+
+li.completed{
+  text-decoration:line-through;
+  color:gray;
+}
+
+.whole{
+  background-color:#FCA5F1;
+  font-family:arial;
+  max-width:400px;
+  margin:30px auto;
+  border-style:solid;
+  border-color:#FCA5F1;
+  border-width: 4px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 8px rgba(6, 6, 6, 0.2); 
+
+}

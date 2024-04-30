@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta firstname="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles.css" type="text/css">
+
+  <title>Document</title>
+</head>
+<body>
+  <div class="whole">
+    <div>
+      <h2>To-Do List</h2>
+      <div class="title">
+        <input type="text" firstname="todoinput" id="todoinput" placeholder="Things-to-do">
+      </div>
+      <div class="button">  
+        <button type="submit" onclick="addTask()"><span class="add">Add</span></button>
+      </div>
+      <div class="search">
+        <label  for="searchinput">Search</label>
+      </div>
+      <div class="searchbar">
+        <input type="text" firstname="searchinput" oninput="filtertasks()" id="searchinput" placeholder="Search task" >
+      </div>
+
+    </div>
+ 
+    <ul id="todolist"></ul>
+    
+    <div class="tasks">
+      <p>Total Tasks : <span class="spantask"id="totaltask">0</span></p>
+      <p>Completed Tasks : <span class="spantask"id="completedtask">0</span></p>
+    </div>
+  </div>
+
+  <script src="./script.js"></script>
+
+</body>
+</html>
